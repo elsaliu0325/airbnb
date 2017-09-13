@@ -1,909 +1,960 @@
 @charset "utf-8";
+
 /* CSS Document */
+
 body {
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 #all {
-height: auto;
-width: 100%;
-margin-right: auto;
-margin-left: auto;
+    height: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#slogan{
-width: 366px;
-height: 90px;
-text-shadow: 2px 2px 3px #333333; 
-margin-left: auto;
-margin-right: auto;
-color: white;
-font-family: 'cwTeXHei', sans-serif;
+#slogan {
+    width: 366px;
+    height: 90px;
+    text-shadow: 2px 2px 3px #333333;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'cwTeXHei', sans-serif;
 }
+
 #logo {
-height: 42px;
-width: 117px;
-margin-top: -260px;
-margin-left: 8px;
-float: left;
-background-image: url('icon/icon_airbnb-08.png');
-background-position: center center;
-background-size: cover;
+    height: 42px;
+    width: 117px;
+    margin-top: -260px;
+    margin-left: 8px;
+    float: left;
+    background-image: url('icon/icon_airbnb-08.png');
+    background-position: center center;
+    background-size: cover;
 }
+
 #header_up {
-height: 487px;
-width: 100%;
-text-align: center;
-padding-top: 288px;
+    height: 487px;
+    width: 100%;
+    text-align: center;
+    padding-top: 288px;
 }
+
 #login {
-height: 42px;
-margin-top: -260px;
-width: 310px;
-float: right;
-}
-#header_down{
-height: 113px;
-width: 100%;
-padding-top: 30px;
-background: rgba(0, 0, 0, 0.6);
-
+    height: 42px;
+    margin-top: -260px;
+    width: 310px;
+    float: right;
 }
 
-#header_down table{
-	margin-left: auto;
-	margin-right: auto;
+#header_down {
+    height: 113px;
+    width: 100%;
+    padding-top: 30px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#header_down table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header_down table tr {
-background-color: #FFF;
-color: #666;
-font-size: 16px;
+    background-color: #FFF;
+    color: #666;
+    font-size: 16px;
 }
-#header_down table td:nth-child(5){
-color: white;
-text-align: center;
+
+#header_down table td:nth-child(5) {
+    color: white;
+    text-align: center;
 }
+
 #login ul li {
-float: left;
-list-style-type: none;
-font-size: 16px;
-line-height: 42px;
-color: #FFF;
-height: 42px;
-width: auto;
-margin-right: 20px;
-text-shadow: 4px 0px 6px #2E2E2E; 
+    float: left;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 42px;
+    color: #FFF;
+    height: 42px;
+    width: auto;
+    margin-right: 20px;
+    text-shadow: 4px 0px 6px #2E2E2E;
 }
-#content{
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-background-color: white;
+
+#content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
+
 #content_up {
-margin-bottom: 50px;
-margin-right: auto;
-margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
-#content_upL, #content_upMI, #content_upR, #content_miblockA, #content_miblockB, #content_miblockC, #content_miblockD, #content_miblockE, #content_miblockF, #content_miblockG, #content_miblockH, #content_miblockI, #content_miblockJ {
-font-size: 20px;
-line-height: 344px;
-font-weight: bold;
-color: #FFF;
-text-align: center;
-background-size: cover;
-background-position: center center;
+
+#content_upL,
+#content_upMI,
+#content_upR,
+#content_miblockA,
+#content_miblockB,
+#content_miblockC,
+#content_miblockD,
+#content_miblockE,
+#content_miblockF,
+#content_miblockG,
+#content_miblockH,
+#content_miblockI,
+#content_miblockJ {
+    font-size: 20px;
+    line-height: 344px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
 }
+
 #searchbox {
-height: 38px;
-width: 311px;
-border: 1px inset #333;
-margin-right: auto;
-margin-left: auto;
-font-size: 18px;
-font-weight: bold;
-text-align: center;
-line-height: 38px;
-border-radius:3px;
-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
--webkit-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
--moz-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
--o-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
+    height: 38px;
+    width: 311px;
+    border: 1px inset #333;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 3px;
+    box-shadow: inset -1px -5px 55px 1px #9E9E9E;
+    -webkit-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
+    -moz-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
+    -o-box-shadow: inset -1px -5px 55px 1px #9E9E9E;
 }
+
 .text_h {
-width: 100%;
-height: 151px;
-text-align: center;
-font-size: 20px;
-font-weight: bold;
+    width: 100%;
+    height: 151px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 .circle {
-float: left;
-border-radius: 50%;
-border: 1px solid #CCC;
-align-items: center;
-justify-content: center;
-}
-@media screen and (max-width:779px){
-
-#header {
-height: 600px;
-width:100%;
-background-image: url('pic/bridge.jpg');
-background-size: cover;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid #CCC;
+    align-items: center;
+    justify-content: center;
 }
 
-#muteYouTubeVideoPlayer {
-	display: none;
+@media screen and (max-width:779px) {
+    #header {
+        height: 600px;
+        width: 100%;
+        background-image: url('pic/bridge.jpg');
+        background-size: cover;
+        padding-left: 5%;
+        padding-top: 300px;
+    }
+    #muteYouTubeVideoPlayer {
+        display: none;
+    }
+    #navbar_phone {
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #logo_phone {
+        background-image: url('icon/logo_red.png');
+        height: 40px;
+        width: 130px;
+        margin-right: auto;
+        margin-left: auto;
+        background-size: cover;
+        background-position: 0;
+    }
+    #sel_phone {
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+    .container {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 40px;
+        height: 6px;
+        background-color: #F00;
+        margin: 6px 0;
+        transition: 0.6s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    #header_up,
+    #logo,
+    #header_down,
+    #content_mi,
+    #content_down,
+    #text_down {
+        display: none;
+    }
+    #searchbox {
+        display: none;
+    }
+    #content {
+        height: 1383px;
+    }
+    #content_up {
+        height: 1032px;
+    }
+    #content_upL,
+    #content_upMI,
+    #content_upR,
+    {
+        text-align: center;
+        font-size: 36px;
+        line-height: 422px;
+        color: #FFF;
+        font-weight: bold;
+        text-shadow: rgb(3, 3, 3) 3px 7px 5px;
+        height: 422px;
+        width: 100%;
+        background-size: cover;
+    }
+    #content_upL {
+        background-image: url('pic/ocean.jpg');
+        background-position: bottom;
+    }
+    #content_upMI {
+        background-image: url('pic/ocean_house.jpg');
+    }
+    #content_upR {
+        background-image: url('pic/bamaoo.jpg');
+    }
+    #searchbox_phone {
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #menu {
+        height: 1688px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #menuone,
+    #menutwo,
+    #menuthr,
+    #menufor {
+        height: 422px;
+        width: 100%;
+        background-size: cover;
+        text-align: center;
+        font-size: 36px;
+        line-height: 422px;
+        font-weight: bold;
+        color: #FFF;
+    }
+    #menuone {
+        background-image: url('pic/holiday_house.jpg');
+        background-position: center;
+        background-position: center center;
+    }
+    #menutwo {
+        background-image: url('pic/water_fight.jpg');
+        background-position: top;
+    }
+    #menuthr {
+        background-image: url('pic/light.jpg');
+        background-position: center;
+    }
+    #menufor {
+        background-image: url('pic/puppy3.jpg');
+        background-position: top;
+    }
+    #footer {
+        height: 479px;
+        width: 100%;
+        background-image: url('icon/footer2-09.jpg');
+        background-size: cover;
+    }
+    #footer_up {
+        height: 243px;
+        width: 100%;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    #select {
+        width: 95%;
+        height: 243px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #listA,
+    #listB,
+    #listC {
+        display: none;
+    }
+    #listA {
+        margin-right: 25px;
+    }
+    #listB {
+        margin-right: 25px;
+    }
+    #footer_down {
+        height: 166px;
+        width: 100%;
+    }
+    #us {
+        display: none
+    }
+    #us_phone {
+        font-size: 12px;
+        line-height: 28px;
+        font-weight: bold;
+        color: #FFF;
+        height: 28px;
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #icon {
+        height: 38px;
+        width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .styled_selecttwo select {
+        width: 100%;
+        padding: 5px;
+        font-size: 24px;
+        border: 1px solid #999;
+        height: 40px;
+        margin-bottom: 13px;
+        color: #FFF;
+        background-color: #666;
+    }
+    .circle {
+        height: 35px;
+        width: 35px;
+        margin-right: 5px;
+    }
+    #icon .circle:nth-child(7) {
+        margin-right: 0px;
+    }
+    .optionbgcolor {
+        color: #CCC;
+        background-color: #000;
+    }
+    #searchbox_phone table tr td input {
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        background-color: #FFF;
+        height: 40px;
+        width: 300px;
+        text-align: center;
+    }
+    #searchbox_phone table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-#navbar_phone {
-height: 40px;
-width: 100%;
-margin-bottom: 10px;
-}
-#logo_phone {
-background-image: url('icon/logo_red.png');
-height: 40px;
-width: 130px;
-margin-right: auto;
-margin-left: auto;
-background-size: cover;
-background-position: 0;
-}
-#sel_phone {
-height: 40px;
-width: 40px;
-float: left;
-}
-.container {
-display: inline-block;
-cursor: pointer;
-}
-.bar1, .bar2, .bar3 {
-width: 40px;
-height: 6px;
-background-color: #F00;
-margin: 6px 0;
-transition: 0.6s;
-}
-.change .bar1 {
--webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-.change .bar2 {opacity: 0;}
-.change .bar3 {
--webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-transform: rotate(45deg) translate(-8px, -8px) ;
-}
-#header {
-padding-left: 5%;
-padding-top: 300px;
-}
-#header_up, #logo, #header_down,   #content_mi, #content_down, #text_down{
-display: none;
-}
-#searchbox{
-display: none;
-}
-#content{
-height: 1383px;
-}
-#content_up {
-height: 1032px;
-}
-#content_upL, #content_upMI, #content_upR,  {
-text-align: center;
-font-size: 36px;
-line-height: 422px;
-color: #FFF;
-font-weight: bold;
-text-shadow: rgb(3, 3, 3) 3px 7px 5px;
-height: 422px;
-width: 100%;
-background-size: cover;
-}
-#content_upL {
-background-image: url('pic/ocean.jpg');
-background-position: bottom;
-}
-#content_upMI {
-background-image: url('pic/ocean_house.jpg');
-}
-#content_upR {
-background-image: url('pic/bamaoo.jpg');
-}
-#searchbox_phone {
-height: 60px;
-margin-left: auto;
-margin-right: auto;
-}
-#menu {
-height: 1688px;
-width: 100%;
-margin-bottom: 50px;
-}
-#menuone, #menutwo, #menuthr, #menufor {
-height: 422px;
-width: 100%;
-background-size: cover;
-text-align: center;
-font-size: 36px;
-line-height: 422px;
-font-weight: bold;
-color: #FFF;
-}
-#menuone {
-background-image: url('pic/holiday_house.jpg');
-background-position:center;
-background-position: center center;
-}
-#menutwo {
-background-image: url('pic/water_fight.jpg');
-background-position: top;
-}
-#menuthr {
-background-image: url('pic/light.jpg');
-background-position:center ;
-}
-#menufor {
-background-image: url('pic/puppy3.jpg');
-background-position:top;
-}
-#footer {
-height: 479px;
-width: 100%;
-background-image: url('icon/footer2-09.jpg');
-background-size: cover;
-}
-#footer_up {
-height: 243px;
-width: 100%;
-padding-top: 50px;
-margin-bottom: 20px;
-}
-#select {
-width: 95%;
-height: 243px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-}
-#listA, #listB, #listC {
-display: none;
-}
-#listA {
-margin-right: 25px;
-}
-#listB {
-margin-right: 25px;
-}
-#footer_down {
-height: 166px;
-width: 100%;
-}
-#us {
-display: none
-}
-#us_phone {
-font-size: 12px;
-line-height: 28px;
-font-weight: bold;
-color: #FFF;
-height: 28px;
-width: 90%;
-margin-bottom: 20px;
-text-align: center;
-margin-right: auto;
-margin-left: auto;
-}
-#icon {
-height: 38px;
-width:275px;
-margin-left: auto;
-margin-right: auto;
-}
-.styled_selecttwo select {
-width: 100%;
-padding: 5px;
-font-size: 24px;
-border: 1px solid #999;
-height: 40px;
-margin-bottom: 13px;
-color: #FFF;
-background-color: #666;
-}
-.circle {
-height: 35px;
-width: 35px;
-margin-right: 5px;
-}
-#icon .circle:nth-child(7){
-margin-right:0px;
-}
-.optionbgcolor {
-color: #CCC;
-background-color: #000;
-}
-#searchbox_phone table tr td input {
-font-size: 18px;
-font-weight: bold;
-color: #000;
-background-color: #FFF;
-height: 40px;
-width: 300px;
-text-align: center;
-}
-#searchbox_phone table{
-margin-left: auto;
-margin-right: auto;
-}
-}
 @media screen and (min-width: 780px) and (max-width: 1023px) {
+    #header {
+        height: 600px;
+        width: 100%;
+        background-image: url('pic/bridge.jpg');
+        background-size: cover;
+    }
+    #muteYouTubeVideoPlayer {
+        display: none;
+    }
+    #navbar_phone {
+        display: none;
+    }
+    #searchbox_phone {
+        display: none;
+    }
+    #content {
+        height: 3900px;
+    }
+    #content_up {
+        height: 713px;
+        width: 865px;
+    }
+    #content_upL,
+    #content_upMI,
+    #content_upR {
+        height: 344px;
+        float: left;
+    }
+    #content_upL {
+        width: 865px;
+        margin-bottom: 25px;
+        background-image: url('pic/ocean.jpg');
+    }
+    #content_upMI {
+        width: 420px;
+        margin-right: 25px;
+        background-image: url('pic/ocean_house.jpg');
+    }
+    #content_upR {
+        width: 420px;
+        background-image: url('pic/bamaoo.jpg');
+    }
+    #content_mi {
+        height: 2186px;
+        width: 865px;
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #content_miblockA {
+        float: left;
+        height: 344px;
+        width: 865px;
+        margin-bottom: 25px;
+        background-image: url('pic/joy.jpg');
+    }
+    #content_miblockB {
+        background-color: #993;
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/window.jpg');
+    }
+    #content_miblockC {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-bottom: 25px;
+        background-image: url('pic/puppy.jpg');
+    }
+    #content_miblockD {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/rise_light.jpg');
+    }
+    #content_miblockE {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-bottom: 25px;
+        background-image: url('pic/snow.jpg');
+    }
+    #content_miblockF {
+        float: left;
+        height: 344px;
+        width: 865px;
+        margin-bottom: 25px;
+        background-image: url('pic/netherland.jpg');
+    }
+    #content_miblockG {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/house.jpg');
+    }
+    #content_miblockH {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-bottom: 25px;
+        background-image: url('pic/bridge.jpg');
+    }
+    #content_miblockI {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        background-image: url('pic/Totoro.jpg');
+    }
+    #content_miblockJ {
+        float: left;
+        height: 344px;
+        width: 420px;
+        margin-bottom: 25px;
+        background-image: url('pic/puppy2.jpg');
+    }
+    #content_down {
+        height: 600px;
+        width: 100%;
+    }
+    #text_down {
+        height: 135px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 135px;
+        color: #000;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #menu {
+        height: 1009px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #menuone,
+    #menutwo,
+    #menuthr,
+    #menufor {
+        background-size: cover;
+        text-align: center;
+        font-size: 24px;
+        line-height: 900px;
+        font-weight: bold;
+        color: #FFF;
+    }
+    #menuone {
+        height: 492px;
+        width: 48%;
+        margin-bottom: 1.8%;
+        margin-right: 1.8%;
+        float: left;
+        background-image: url('pic/holiday_house.jpg');
+        background-position: -100px;
+    }
+    #menutwo {
+        height: 492px;
+        width: 48%;
+        margin-bottom: 1.8%;
+        float: left;
+        background-image: url('pic/water_fight.jpg');
+        background-position: -10px;
+    }
+    #menuthr {
+        height: 492px;
+        width: 48%;
+        margin-bottom: 1.8%;
+        margin-right: 1.8%;
+        float: left;
+        background-image: url('pic/light.jpg');
+        background-position: -150px;
+    }
+    #menufor {
+        height: 492px;
+        width: 48%;
+        margin-bottom: 1.8%;
+        float: left;
+        background-image: url('pic/puppy3.jpg');
+        background-position: -180px;
+    }
+    #footer {
+        height: 479px;
+        width: 100%;
+        background-image: url('icon/footer2-09.jpg');
+        background-size: cover;
+    }
+    #footer_up {
+        height: 243px;
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    #select {
+        float: left;
+        height: 194px;
+        width: 130px;
+        margin-right: 46px;
+    }
+    #listA,
+    #listB,
+    #listC {
+        float: left;
+        height: 194px;
+        width: 142px;
+        font-size: 13px;
+        margin-top: -15px;
+        color: #FFF;
+    }
+    #listA {
+        margin-right: 19px;
+    }
+    #listB {
+        margin-right: 19px;
+    }
+    #footer_down {
+        height: 166px;
+        width: 100%;
+        padding-left: 12%;
+        padding-top: 20px;
+    }
+    #us {
+        height: 66px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        line-height: 67px;
+        font-size: 18px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #FFF;
+        color: #FFF;
+        font-weight: bold;
+    }
+    #us_phone {
+        display: none;
+    }
+    #icon {
+        height: 38px;
+        width: 370px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .styled_select select {
+        background: transparent;
+        width: 120px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #999;
+        height: 34px;
+        color: #333;
+    }
+    .styled_selecttwo select {
+        background: transparent;
+        width: 120px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #999;
+        height: 34px;
+        margin-bottom: 13px;
+        color: #FFF;
+    }
+    .circle {
+        height: 36px;
+        width: 36px;
+        margin-right: 14px;
+    }
+    .optionbgcolor {
+        color: #CCC;
+        background-color: #000;
+    }
+    .w3-content {
+        max-width: 1340px;
+    }
+    .w3-display-right {
+        right: 0%;
+    }
+}
 
-#header {
-height: 600px;
-width:100%;
-background-image: url('pic/bridge.jpg');
-background-size: cover;
-}
-#muteYouTubeVideoPlayer {
-	display: none;
-}
-
-#navbar_phone {
-display: none;
-}
-#searchbox_phone {
-display: none;
-}
-
-#content{
-height: 3900px;
-}
-#content_up {
-height: 713px;
-width: 865px;
-}
-#content_upL, #content_upMI, #content_upR{
-height: 344px;
-float: left;
-}
-#content_upL {
-width: 865px;
-margin-bottom: 25px;
-background-image: url('pic/ocean.jpg');
-}
-#content_upMI {
-width: 420px;
-margin-right: 25px;
-background-image: url('pic/ocean_house.jpg');
-}
-#content_upR {
-width: 420px;
-background-image: url('pic/bamaoo.jpg');
-}
-#content_mi {
-height: 2186px;
-width: 865px;
-margin-bottom: 50px;
-margin-right: auto;
-margin-left: auto;
-}
-#content_miblockA {
-float: left;
-height: 344px;
-width: 865px;
-margin-bottom: 25px;
-background-image: url('pic/joy.jpg');
-}
-#content_miblockB {
-background-color: #993;
-float: left;
-height: 344px;
-width: 420px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/window.jpg');
-}
-#content_miblockC {
-float: left;
-height: 344px;
-width: 420px;
-margin-bottom: 25px;
-background-image: url('pic/puppy.jpg');
-}
-#content_miblockD {
-float: left;
-height: 344px;
-width: 420px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/rise_light.jpg');
-}
-#content_miblockE {
-float: left;
-height: 344px;
-width: 420px;
-margin-bottom: 25px;
-background-image: url('pic/snow.jpg');
-}
-#content_miblockF {
-float: left;
-height: 344px;
-width: 865px;
-margin-bottom: 25px;
-background-image: url('pic/netherland.jpg');
-}
-#content_miblockG {
-float: left;
-height: 344px;
-width: 420px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/house.jpg');
-}
-#content_miblockH {
-float: left;
-height: 344px;
-width: 420px;
-margin-bottom: 25px;
-background-image: url('pic/bridge.jpg');
-}
-#content_miblockI {
-float: left;
-height: 344px;
-width: 420px;
-margin-bottom: 25px;
-margin-right: 25px;
-background-image: url('pic/Totoro.jpg');
-}
-#content_miblockJ {
-float: left;
-height: 344px;
-width: 420px;
-margin-bottom: 25px;
-background-image: url('pic/puppy2.jpg');
-}
-#content_down {
-height: 600px;
-width: 100%;
-}
-#text_down {
-height: 135px;
-width: 100%;
-font-size: 30px;
-line-height: 135px;
-color: #000;
-text-align: center;
-font-weight: bolder;
-}
-#menu {
-height: 1009px;
-width: 100%;
-margin-bottom: 50px;
-}
-#menuone, #menutwo, #menuthr, #menufor {
-background-size: cover;
-text-align: center;
-font-size: 24px;
-line-height: 900px;
-font-weight: bold;
-color: #FFF;
-}
-#menuone {
-height: 492px;
-width: 48%;
-margin-bottom: 1.8%;
-margin-right: 1.8%;
-float: left;
-background-image: url('pic/holiday_house.jpg');
-background-position: -100px;
-}
-#menutwo {
-height: 492px;
-width: 48%;
-margin-bottom: 1.8%;
-float: left;
-background-image: url('pic/water_fight.jpg');
-background-position: -10px;
-}
-#menuthr {
-height: 492px;
-width: 48%;
-margin-bottom: 1.8%;
-margin-right: 1.8%;
-float: left;
-background-image: url('pic/light.jpg');
-background-position: -150px;
-}
-#menufor {
-height: 492px;
-width: 48%;
-margin-bottom: 1.8%;
-float: left;
-background-image: url('pic/puppy3.jpg');
-background-position: -180px;
-}
-#footer {
-height: 479px;
-width: 100%;
-background-image: url('icon/footer2-09.jpg');
-background-size: cover;
-}
-#footer_up {
-height: 243px;
-width: 100%;
-padding-left: 15%;
-padding-top: 50px;
-margin-bottom: 20px;
-}
-#select {
-float: left;
-height: 194px;
-width: 130px;
-margin-right: 46px;
-}
-#listA, #listB, #listC {
-float: left;
-height: 194px;
-width: 142px;
-font-size: 13px;
-margin-top: -15px;
-color: #FFF;
-}
-#listA {
-margin-right: 19px;
-}
-#listB {
-margin-right: 19px;
-}
-#footer_down {
-height: 166px;
-width: 100%;
-padding-left: 12%;
-padding-top: 20px;
-}
-#us {
-height: 66px;
-width: 100%;
-margin-right: auto;
-margin-left: auto;
-text-align: center;
-line-height: 67px;
-font-size: 18px;
-border-top-width: 1px;
-border-top-style: solid;
-border-top-color: #FFF;
-color: #FFF;
-font-weight: bold;
-}
-#us_phone{
-display: none;
-}
-#icon {
-height: 38px;
-width: 370px;
-margin-right: auto;
-margin-left: auto;
-}
-.styled_select select {
-background: transparent;
-width: 120px;
-padding: 5px;
-font-size: 16px;
-border: 1px solid #999;
-height: 34px;
-color: #333;
-}
-.styled_selecttwo select {
-background: transparent;
-width: 120px;
-padding: 5px;
-font-size: 16px;
-border: 1px solid #999;
-height: 34px;
-margin-bottom: 13px;
-color: #FFF;
-}
-.circle {
-height: 36px;
-width: 36px;
-margin-right: 14px;
-}
-.optionbgcolor {
-color: #CCC;
-background-color: #000;
-}
-.w3-content {
-max-width: 1340px;
-}
-.w3-display-right {
-right: 0%;
-}
-}
 @media screen and (min-width:1024px) {
+    #header {
+        height: 600px;
+        width: 100%;
+        background-color: none;
+    }
+    #muteYouTubeVideoPlayer {
+        position: absolute;
+        z-index: -100;
+	}
+	#header_up{
+		margin-bottom: 10px;
+	}
 
-	#header {
-height: 600px;
-width:100%;
-background-color: none;
-}
-
-#muteYouTubeVideoPlayer {
-	position: absolute;
-	z-index: -100;
-}
-
-#navbar_phone, #searchbox_phone{
-display: none;
-}
-
-#content{
-height: 2900px;
-}
-#content_up {
-height: 344px;
-width: 1079px;
-}
-#content_upL {
-height: 344px;
-width: 343px;
-margin-right: 1.85%;
-float: left;
-background-image: url('pic/ocean.jpg');
-}
-#content_upMI {
-height: 344px;
-width: 343px;
-margin-right: 1.85%;
-float: left;
-background-image: url('pic/ocean_house.jpg');
-}
-#content_upR {
-height: 344px;
-width: 343px;
-float: left;
-background-image: url('pic/bamaoo.jpg');
-}
-#content_mi {
-height: 1451px;
-width: 1080px;
-margin-bottom: 50px;
-margin-right: auto;
-margin-left: auto;
-}
-#content_miblockA {
-float: left;
-height: 344px;
-width: 711px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/joy.jpg');
-}
-#content_miblockB {
-background-color: #993;
-float: left;
-height: 344px;
-width: 343px;
-margin-bottom: 25px;
-background-image: url('pic/window.jpg');
-}
-#content_miblockC {
-float: left;
-height: 344px;
-width: 343px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/puppy.jpg');
-}
-#content_miblockD {
-float: left;
-height: 344px;
-width: 343px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/rise_light.jpg');
-}
-#content_miblockE {
-float: left;
-height: 344px;
-width: 343px;
-margin-bottom: 25px;
-background-image: url('pic/snow.jpg');
-}
-#content_miblockF {
-float: left;
-height: 344px;
-width: 711px;
-margin-right: 25px;
-margin-bottom: 25px;
-background-image: url('pic/netherland.jpg');
-}
-#content_miblockG {
-float: left;
-height: 344px;
-width: 343px;
-margin-bottom: 25px;
-background-image: url('pic/house.jpg');
-}
-#content_miblockH {
-float: left;
-height: 344px;
-width: 343px;
-margin-right: 25px;
-background-image: url('pic/bridge.jpg');
-}
-#content_miblockI {
-float: left;
-height: 344px;
-width: 343px;
-margin-right: 25px;
-background-image: url('pic/Totoro.jpg');
-}
-#content_miblockJ {
-float: left;
-height: 344px;
-width: 343px;
-background-image: url('pic/puppy2.jpg');
-}
-#content_down {
-height: 600px;
-width: 100%;
-}
-#text_down {
-height: 135px;
-width: 100%;
-font-size: 30px;
-line-height: 135px;
-color: #000;
-text-align: center;
-font-weight: bolder;
-}
-#menu {
-height: 491px;
-width: 100%;
-margin-bottom: 25px;
-}
-#menuone, #menutwo, #menuthr, #menufor {
-background-size: cover;
-text-align: center;
-font-size: 24px;
-line-height: 900px;
-font-weight: bold;
-color: #FFF;
-}
-#menuone {
-background-color: #FF6;
-height: 491px;
-width: 23.61%;
-margin-right: 1.85%;
-float: left;
-background-image: url('pic/holiday_house.jpg');
-background-position: -100px;
-}
-#menutwo {
-background-color: #FF6;
-height: 491px;
-width: 23.61%;
-margin-right: 1.85%;
-float: left;
-background-image: url('pic/water_fight.jpg');
-background-position: -10px;
-}
-#menuthr {
-background-color: #F99;
-height: 491px;
-width: 23.61%;
-margin-right: 1.85%;
-float: left;
-background-image: url('pic/light.jpg');
-background-position: -350px;
-}
-#menufor {
-background-color: #CC6;
-height: 491px;
-width: 23.61%;
-float: left;
-background-image: url('pic/puppy3.jpg');
-background-position: -180px;
-}
-#footer {
-height: 479px;
-width: 100%;
-background-image: url('icon/footer2-09.jpg');
-background-size: cover;
-}
-#footer_up {
-height: 243px;
-width: 100%;
-padding-left: 20%;
-padding-top: 50px;
-}
-#select {
-float: left;
-height: 194px;
-width: 240px;
-margin-right: 94px;
-}
-#listA, #listB, #listC {
-float: left;
-height: 194px;
-width: 142px;
-font-size: 13px;
-margin-top: -15px;
-color: #FFF;
-}
-#listA {
-margin-right: 25px;
-}
-#listB {
-margin-right: 25px;
-}
-#footer_down {
-height: 166px;
-width: 100%;
-padding-right: 12%;
-padding-left: 12%;
-padding-top: 20px;
-}
-#us {
-height: 66px;
-width: 100%;
-margin-right: auto;
-margin-left: auto;
-text-align: center;
-line-height: 67px;
-font-size: 18px;
-border-top-width: 1px;
-border-top-style: solid;
-border-top-color: #FFF;
-color: #FFF;
-font-weight: bold;
-}
-#us_phone{
-display: none;
-}
-#icon {
-height: 38px;
-width: 370px;
-margin-right: auto;
-margin-left: auto;
-}
-.styled_select select {
-background: transparent;
-width: 120px;
-padding: 5px;
-font-size: 16px;
-border: 1px solid #999;
-height: 34px;
-color: #333;
-}
-.styled_selecttwo select {
-background: transparent;
-width: 120px;
-padding: 5px;
-font-size: 16px;
-border: 1px solid #999;
-height: 34px;
-margin-bottom: 13px;
-color: #FFF;
-}
-.circle {
-height: 36px;
-width: 36px;
-margin-right: 14px;
-justify-content: center;
-}
-.optionbgcolor {
-color: #CCC;
-background-color: #000;
-}
-.w3-content {
-max-width: 1340px;
-}
-.w3-display-right {
-right: -0.7%;
-}
+    #navbar_phone,
+    #searchbox_phone {
+        display: none;
+    }
+    #content {
+        height: 2900px;
+    }
+    #content_up {
+        height: 344px;
+        width: 1079px;
+    }
+    #content_upL {
+        height: 344px;
+        width: 343px;
+        margin-right: 1.85%;
+        float: left;
+        background-image: url('pic/ocean.jpg');
+    }
+    #content_upMI {
+        height: 344px;
+        width: 343px;
+        margin-right: 1.85%;
+        float: left;
+        background-image: url('pic/ocean_house.jpg');
+    }
+    #content_upR {
+        height: 344px;
+        width: 343px;
+        float: left;
+        background-image: url('pic/bamaoo.jpg');
+    }
+    #content_mi {
+        height: 1451px;
+        width: 1080px;
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #content_miblockA {
+        float: left;
+        height: 344px;
+        width: 711px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/joy.jpg');
+    }
+    #content_miblockB {
+        background-color: #993;
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-bottom: 25px;
+        background-image: url('pic/window.jpg');
+    }
+    #content_miblockC {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/puppy.jpg');
+    }
+    #content_miblockD {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/rise_light.jpg');
+    }
+    #content_miblockE {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-bottom: 25px;
+        background-image: url('pic/snow.jpg');
+    }
+    #content_miblockF {
+        float: left;
+        height: 344px;
+        width: 711px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        background-image: url('pic/netherland.jpg');
+    }
+    #content_miblockG {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-bottom: 25px;
+        background-image: url('pic/house.jpg');
+    }
+    #content_miblockH {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-right: 25px;
+        background-image: url('pic/bridge.jpg');
+    }
+    #content_miblockI {
+        float: left;
+        height: 344px;
+        width: 343px;
+        margin-right: 25px;
+        background-image: url('pic/Totoro.jpg');
+    }
+    #content_miblockJ {
+        float: left;
+        height: 344px;
+        width: 343px;
+        background-image: url('pic/puppy2.jpg');
+    }
+    #content_down {
+        height: 600px;
+        width: 100%;
+    }
+    #text_down {
+        height: 135px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 135px;
+        color: #000;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #menu {
+        height: 491px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #menuone,
+    #menutwo,
+    #menuthr,
+    #menufor {
+        background-size: cover;
+        text-align: center;
+        font-size: 24px;
+        line-height: 900px;
+        font-weight: bold;
+        color: #FFF;
+    }
+    #menuone {
+        background-color: #FF6;
+        height: 491px;
+        width: 23.61%;
+        margin-right: 1.85%;
+        float: left;
+        background-image: url('pic/holiday_house.jpg');
+        background-position: -100px;
+    }
+    #menutwo {
+        background-color: #FF6;
+        height: 491px;
+        width: 23.61%;
+        margin-right: 1.85%;
+        float: left;
+        background-image: url('pic/water_fight.jpg');
+        background-position: -10px;
+    }
+    #menuthr {
+        background-color: #F99;
+        height: 491px;
+        width: 23.61%;
+        margin-right: 1.85%;
+        float: left;
+        background-image: url('pic/light.jpg');
+        background-position: -350px;
+    }
+    #menufor {
+        background-color: #CC6;
+        height: 491px;
+        width: 23.61%;
+        float: left;
+        background-image: url('pic/puppy3.jpg');
+        background-position: -180px;
+    }
+    #footer {
+        height: 479px;
+        width: 100%;
+        background-image: url('icon/footer2-09.jpg');
+        background-size: cover;
+    }
+    #footer_up {
+        height: 243px;
+        width: 100%;
+        padding-left: 20%;
+        padding-top: 50px;
+    }
+    #select {
+        float: left;
+        height: 194px;
+        width: 240px;
+        margin-right: 94px;
+    }
+    #listA,
+    #listB,
+    #listC {
+        float: left;
+        height: 194px;
+        width: 142px;
+        font-size: 13px;
+        margin-top: -15px;
+        color: #FFF;
+    }
+    #listA {
+        margin-right: 25px;
+    }
+    #listB {
+        margin-right: 25px;
+    }
+    #footer_down {
+        height: 166px;
+        width: 100%;
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-top: 20px;
+    }
+    #us {
+        height: 66px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        line-height: 67px;
+        font-size: 18px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #FFF;
+        color: #FFF;
+        font-weight: bold;
+    }
+    #us_phone {
+        display: none;
+    }
+    #icon {
+        height: 38px;
+        width: 370px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .styled_select select {
+        background: transparent;
+        width: 120px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #999;
+        height: 34px;
+        color: #333;
+    }
+    .styled_selecttwo select {
+        background: transparent;
+        width: 120px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #999;
+        height: 34px;
+        margin-bottom: 13px;
+        color: #FFF;
+    }
+    .circle {
+        height: 36px;
+        width: 36px;
+        margin-right: 14px;
+        justify-content: center;
+    }
+    .optionbgcolor {
+        color: #CCC;
+        background-color: #000;
+    }
+    .w3-content {
+        max-width: 1340px;
+    }
+    .w3-display-right {
+        right: -0.7%;
+    }
 }
